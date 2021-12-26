@@ -13,7 +13,6 @@ BLUETOOTH_BCM43XX_SITE_METHOD = local
 define BLUETOOTH_BCM43XX_BUILD_CMDS
 	curl -L -o $(@D)/BCM43430A1.hcd https://raw.githubusercontent.com/RPi-Distro/bluez-firmware/e7fd166981ab4bb9a36c2d1500205a078a35714d/broadcom/BCM43430A1.hcd
 	curl -L -o $(@D)/BCM4345C0.hcd https://raw.githubusercontent.com/RPi-Distro/bluez-firmware/e7fd166981ab4bb9a36c2d1500205a078a35714d/broadcom/BCM4345C0.hcd
-	curl -L -o $(@D)/BCM4345C5.hcd https://raw.githubusercontent.com/RPi-Distro/bluez-firmware/e7fd166981ab4bb9a36c2d1500205a078a35714d/broadcom/BCM4345C5.hcd
 	curl -L -o $(@D)/btuart https://raw.githubusercontent.com/RPi-Distro/pi-bluetooth/e1bb75aa83a632c86270e95f92826eb57ee09a77/usr/bin/btuart
 	curl -L -o $(@D)/bthelper https://raw.githubusercontent.com/RPi-Distro/pi-bluetooth/e1bb75aa83a632c86270e95f92826eb57ee09a77/usr/bin/bthelper
 	curl -L -o $(@D)/90-pi-bluetooth.rules https://raw.githubusercontent.com/RPi-Distro/pi-bluetooth/e1bb75aa83a632c86270e95f92826eb57ee09a77/lib/udev/rules.d/90-pi-bluetooth.rules
