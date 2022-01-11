@@ -52,7 +52,8 @@ jobs:
           # - {"name": "rpi3", "output": "rpi3", "runner": "arm-runner"}
           # - {"name": "rpi3_64", "output": "rpi3-64", "runner": "aarch64-runner"}
           # - {"name": "rpi4", "output": "rpi4", "runner": "arm-runner"}
-          - {"name": "rpi4_64", "output": "rpi4-64", "runner": "aarch64-runner"}
+          - {"name": "rpi4_64", "output": "rpi4-64", "runner": "ubuntu-20.04"}
+          # - {"name": "rpi4_64", "output": "rpi4-64", "runner": "aarch64-runner"}
           # - {"name": "tinker", "output": "tinker", "runner": "arm-runner"}
     runs-on: ${{ matrix.board.runner }}
 
